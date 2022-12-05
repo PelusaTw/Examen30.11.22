@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato sans-serif;
+}
+#page {
+  width: 100%;
+  height: 100%;
+  font-family: Lato sans-serif;
+}
+.top {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.mid {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.mid img {
+  width: 100px;
+}
+.bottom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bottom a {
+  color: black;
+  text-decoration: none;
+}
+.banner {
+  height: 320px;
+  background: url(../images/banners/banner-1.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.banner h2 {
+  color: #ff8e9b;
+}
+.banner p {
+  color: black;
+  font-family: Lato sans-serif;
+}
+.banner h5 {
+  color: rgb(117, 114, 114);
+}
+.info-banner {
+  padding: 10px 40px;
+}
+.shop-now {
+  background-color: #ff8e9b;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+}
+.info-banner p {
+  font-size: 3.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.info-banner h5 {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.info-banner span {
+  color: rgb(76, 73, 73);
+  font-size: 1.6rem;
+}
+.card1 img {
+  width: 95%;
+}
+.card1 {
+  width: 100%;
+}
+.card1 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card1 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card1 span {
+  color: black;
+  font-weight: bold;
+}
+
+.card2 img {
+  width: 95%;
+}
+.card2 {
+  width: 100%;
+}
+.card2 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card2 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card2 span {
+  color: black;
+  font-weight: bold;
+}
+.card3 img {
+  width: 95%;
+}
+.card3 {
+  width: 100%;
+}
+.card3 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card3 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card3 span {
+  color: black;
+  font-weight: bold;
+}
+.card4 img {
+  width: 95%;
+}
+.card4 {
+  width: 100%;
+}
+.card4 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card4 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card4 span {
+  color: black;
+  font-weight: bold;
+}
+.card5 img {
+  width: 95%;
+}
+.card5 {
+  width: 100%;
+}
+.card5 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card5 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card5 span {
+  color: black;
+  font-weight: bold;
+}
+.card6 img {
+  width: 95%;
+}
+.card6 {
+  width: 100%;
+}
+.card6 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card6 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card6 span {
+  color: black;
+  font-weight: bold;
+}
+.card7 img {
+  width: 95%;
+}
+.card7 {
+  width: 100%;
+}
+.card6 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card7 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card7 span {
+  color: black;
+  font-weight: bold;
+}
+.card8 img {
+  width: 95%;
+}
+.card8 {
+  width: 100%;
+}
+.card8 h5 {
+  color: #ff8e9b;
+  font-size: 1rem;
+}
+.card8 button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.card8 span {
+  color: black;
+  font-weight: bold;
+}
+article {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+footer {
+  height: 200px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+.option ul {
+  display: flex;
+}
+footer a {
+  color: rgb(186, 181, 181);
+  text-decoration: none;
+}
+footer a:hover {
+  border-bottom: 1px solid white;
+}
